@@ -16,7 +16,7 @@
           @enderror
           </div>
   
-          <div class="form-group"><!-- Visit 'codeastro' for more projects -->
+          <div class="form-group">
               <label for="type" class="col-form-label">Type <span class="text-danger">*</span></label>
               <select name="type" class="form-control">
                   <option value="fixed" {{(($coupon->type=='fixed') ? 'selected' : '')}}>Fixed</option>
@@ -35,7 +35,7 @@
               @enderror
           </div>
           
-        <div class="form-group"><!-- Visit 'codeastro' for more projects -->
+        <div class="form-group">
           <label for="status" class="col-form-label">Status <span class="text-danger">*</span></label>
           <select name="status" class="form-control">
             <option value="active" {{(($coupon->status=='active') ? 'selected' : '')}}>Active</option>

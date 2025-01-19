@@ -1,3 +1,4 @@
+
 <header class="header shop">
     <!-- Topbar -->
     <div class="topbar">
@@ -9,8 +10,9 @@
                         <ul class="list-main">
                             @php
                                 $settings=DB::table('settings')->get();
-                                
+
                             @endphp
+
                             <li><i class="ti-headphone-alt"></i>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
                             <li><i class="ti-email"></i> @foreach($settings as $data) {{$data->email}} @endforeach</li>
                         </ul>
@@ -53,8 +55,9 @@
                     <div class="logo">
                         @php
                             $settings=DB::table('settings')->get();
-                        @endphp                    
-                        <a href="{{route('home')}}"><img src="@foreach($settings as $data) {{$data->logo}} @endforeach" alt="logo"></a>
+                        @endphp      
+   
+                        <a href="{{route('home')}}"><img src="@foreach($settings as $data){{$data->logo}}@endforeach" alt="logo"></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->

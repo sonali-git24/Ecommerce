@@ -19,7 +19,7 @@ class SettingTableSeeder extends Seeder
             'photo'=>"image.jpg",
             'logo'=>'logo.jpg',
             'address'=>"115 Test Street, Test Country",
-            'email'=>"codeastro.com",
+            'email'=>"test@gmail.com",
             'phone'=>"1234567777",
         );
         DB::table('settings')->insert($data);

@@ -1,0 +1,12 @@
+---Admin Login Details---
+
+Email   : admin@mail.com
+Password: test123
+
+--Customer Login Details---
+Email   : customer@mail.com
+Password: customer123
+
+
+
+

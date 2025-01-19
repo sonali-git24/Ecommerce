@@ -66,7 +66,7 @@
                 <option value='{{$data->id}}' {{($key==0) ? 'selected' : ''}}>{{$data->name}}</option>
             @endforeach
           </select>
-        </div><!-- Visit 'codeastro' for more projects -->
+        </div>
         <div class="form-group">
           <label for="inputPhoto" class="col-form-label">Photo <span class="text-danger">*</span></label>
           <div class="input-group">
@@ -100,7 +100,7 @@
       </form>
     </div>
 </div>
-<!-- Visit 'codeastro' for more projects -->
+
 @endsection
 
 @push('styles')
